@@ -1,0 +1,38 @@
+.div-ul{
+	width: 100%;
+	margin-top: 20px;
+	> ul{
+		width: 100%;
+		padding-left: 5px;
+		> li{
+			height: 40px;
+			&:nth-of-type(n+2){
+				margin-top: 10px;
+				min-height: 40px;
+			}
+			> span{
+				display: inline-block;
+				width: 60px;
+				height: 100%;
+				line-height: 40px;
+			}
+			> .ant-input{
+				width: 200px;
+				margin-top: 6px;
+			}
+			> .ant-select{
+				min-width: 200px;
+			}
+			> .ant-btn{
+				margin-top: 6px;
+			}
+			> .ant-btn-primary{
+				margin-left: 61px;
+				margin-right: 10px;
+				span, .anticon-loading{
+					color: #FFF;
+				}
+			}
+		}
+	}
+}
